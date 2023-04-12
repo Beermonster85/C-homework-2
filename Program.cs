@@ -125,3 +125,26 @@
 // }
 // Если должны быть выполнены 2 условия то ставится &&
 // Если какое то из условий то ставится ||
+
+
+// Задача №2
+
+//Ввести 2 числа и проверить является ли одно число квадратом другого
+
+Console.WriteLine("Ввести число №1");
+int number1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Ввести число №2");
+int number2 = Convert.ToInt32(Console.ReadLine());
+
+if ((number1 * number1 == number2) || (number2 * number2 == number1))
+{
+    Console.WriteLine("да");
+}
+else
+{
+    Console.WriteLine("нет");
+}
+
+
+
