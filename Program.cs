@@ -74,17 +74,54 @@
 // Если второе число не кратное перому то программа выводит остаток от деления.
 // Если кратное то пишет "кратно"
 
-Console.WriteLine("Ввести первое число");
-int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввести первое число");
+// int number1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Ввести второе число");
-int number2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввести второе число");
+// int number2 = Convert.ToInt32(Console.ReadLine());
 
-if (number1 % number2 == 0)
-{
-    Console.WriteLine("кратно");
-}
-else
-{
-    Console.WriteLine(number1 % number2);
-}
+// if (number1 % number2 == 0)
+// {
+//     Console.WriteLine("кратно");
+// }
+// else
+// {
+//     Console.WriteLine(number1 % number2);
+// }
+
+
+// Задача №4
+
+// Написать проограмму которая принмает на вход число и проверяет кратно ли оно одновременно 7 и 23
+
+// 14 ----> нет
+// 161---- да
+
+//Вариант решения №1
+// Console.WriteLine("Ввести число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if ((number % 7) + (number % 23) == 0)
+// {
+//     Console.WriteLine("да");
+// }
+// else
+// {
+//     Console.WriteLine("нет");
+// }
+
+// Вариант решения №2
+
+// Console.WriteLine("Ввести число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if ((number % 7 == 0) && (number % 23 == 0))
+// {
+//     Console.WriteLine("да");
+// }
+// else
+// {
+//     Console.WriteLine("нет");
+// }
+// Если должны быть выполнены 2 условия то ставится &&
+// Если какое то из условий то ставится ||
