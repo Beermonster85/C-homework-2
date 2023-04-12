@@ -35,3 +35,30 @@
 // {
 //     Console.WriteLine("числа равны");
 // }
+
+
+//Задача №2
+
+//Написать рандомное трехзначное число и удаляет вторую цифру этого числа
+//Например:
+// 456 ----> 46
+
+//Вариант решения №1
+// int num = new Random().Next(100, 1000);
+// Console.WriteLine(num);
+
+// int a = num % 10;
+// int b = num / 10;
+// int c = b / 10;
+// int f = ((c * 10) + a);
+
+// Console.WriteLine(f);
+
+// //Вариант решения №2
+// int num = new Random().Next(100, 1000);
+// Console.WriteLine(num);
+
+// int a = num / 100;
+// int b = num % 10;
+
+// Console.WriteLine("" + a + b);
