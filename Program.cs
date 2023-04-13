@@ -147,6 +147,9 @@
 // }
 
 
+
+
+
 //Homework
 
 //Task #1 (сделал с рандомом для тренировки)
@@ -160,7 +163,7 @@
 
 
 // Task #2
-Console.WriteLine("Ввести число");
+// Console.WriteLine("Ввести число");
 // int number = Convert.ToInt32(Console.ReadLine());
 
 // if ((number >= 100) && (number < 1000))
@@ -182,4 +185,42 @@ Console.WriteLine("Ввести число");
 // else if (number < 100)
 // {
 //     Console.WriteLine("Третей цифры нет");
+// }
+
+
+// //Task #3
+// Console.WriteLine("Ввести число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if (number == 1)
+// {
+//     Console.WriteLine("Нет");
+// }
+// else if (number == 2)
+// {
+//     Console.WriteLine("Нет");
+// }
+// else if (number == 3)
+// {
+//     Console.WriteLine("Нет");
+// }
+// else if (number == 4)
+// {
+//     Console.WriteLine("Нет");
+// }
+// else if (number == 5)
+// {
+//     Console.WriteLine("Нет");
+// }
+// else if (number == 6)
+// {
+//     Console.WriteLine("Да");
+// }
+// else if (number == 7)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Это не день недели");
 // }
