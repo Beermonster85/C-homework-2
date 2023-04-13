@@ -131,20 +131,55 @@
 
 //Ввести 2 числа и проверить является ли одно число квадратом другого
 
-Console.WriteLine("Ввести число №1");
-int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввести число №1");
+// int number1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Ввести число №2");
-int number2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввести число №2");
+// int number2 = Convert.ToInt32(Console.ReadLine());
 
-if ((number1 * number1 == number2) || (number2 * number2 == number1))
-{
-    Console.WriteLine("да");
-}
-else
-{
-    Console.WriteLine("нет");
-}
+// if ((number1 * number1 == number2) || (number2 * number2 == number1))
+// {
+//     Console.WriteLine("да");
+// }
+// else
+// {
+//     Console.WriteLine("нет");
+// }
 
 
+//Homework
 
+//Task #1 (сделал с рандомом для тренировки)
+
+// int number = new Random().Next(100, 1000);
+// Console.WriteLine(number);
+
+// int a = number / 10;
+// int b = a % 10;
+// Console.WriteLine(b);
+
+
+// Task #2
+Console.WriteLine("Ввести число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if ((number >= 100) && (number < 1000))
+// {
+//     Console.WriteLine(number % 10);
+// }
+// else if ((number >= 1000) && (number < 10000))
+// {
+//     Console.WriteLine((number / 10) % 10);
+// }
+// else if ((number >= 10000) && (number < 100000))
+// {
+//     Console.WriteLine((number / 100) % 10);
+// }
+// else if ((number >= 100000) && (number < 10000000))
+// {
+//     Console.WriteLine((number / 1000) % 10);
+// }
+// else if (number < 100)
+// {
+//     Console.WriteLine("Третей цифры нет");
+// }
